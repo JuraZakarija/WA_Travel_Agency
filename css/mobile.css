@@ -1,0 +1,94 @@
+#navbar .logo {
+    float: none;
+    text-align: center;
+}
+
+#navbar ul, #navbar ul li {
+    float: none;
+}
+
+#navbar ul li a {
+    padding: 5px;
+    border-bottom: #444444 dotted 1px;
+}
+
+/* Showcase */
+
+#showcase .showcase-content {
+    padding: 1rem;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+/* Home Info */
+#home-info .container {
+    flex-direction: column;
+}
+
+#home-info .info-content {
+    height: fit-content;
+}
+
+/* Boxes */
+
+#features .container {
+    flex-direction: column;
+}
+
+/* About */
+#about-info .container {
+  flex-direction: column;
+}
+
+#about-info .l-heading {
+    padding-top: 1rem;
+}
+
+#about-info p {
+    padding: 10px;
+}
+
+#testemonials h2 {
+    color: #333333;
+}
+
+
+.l-heading {
+    text-align: center;
+}
+
+/* Contact */
+#contact-info .box {
+    border-bottom: #444444 dotted 1px;
+}
+
+#contact-info .container {
+    flex-direction: column;
+}
+
+/* Gallery */
+#gallery ul {
+  display: flex;
+  flex-direction: column;
+}
+
+#gallery li {
+  flex-grow: 1;
+  height: fit-content;
+}
+
+#gallery img {
+  width: 100%;
+}
+
+#news article {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    border: #333333 1px solid;
+    border-radius: 5px;
+    padding: 1rem;
+}
